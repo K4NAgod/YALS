@@ -9,7 +9,7 @@ set -e
 
 AGENT_DIR="/etc/yals"
 AGENT_BIN="/usr/bin/yals_agent"
-REPO_URL="${YALS_REPO_URL:-https://github.com/TogawaSakiko363/YALS.git}"
+REPO_URL="${YALS_REPO_URL:-https://github.com/K4NAgod/YALS.git}"
 REPO_REF="${YALS_REPO_REF:-main}"
 SERVICE_FILE="/etc/systemd/system/yals_agent.service"
 

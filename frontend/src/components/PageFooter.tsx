@@ -53,7 +53,7 @@ export function PageFooter({ config }: PageFooterProps) {
       <div className="container max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-3 sm:py-4 w-full">
         <div className="footer-content">
           <div className="footer-left">
-            <a href="https://github.com/TogawaSakiko363/YALS" target="_blank" rel="noopener noreferrer" className="github-link flex items-center gap-0.5">
+            <a href="https://github.com/K4NAgod/YALS" target="_blank" rel="noopener noreferrer" className="github-link flex items-center gap-0.5">
               Powered by YALS
               <Github className="w-4 h-4" />
             </a>

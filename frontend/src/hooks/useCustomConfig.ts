@@ -10,7 +10,7 @@ export interface CustomConfig {
 
 const defaultConfig: CustomConfig = {
   pageTitle: 'Yet Another Looking Glass',
-  footerRightText: '© 2026 TogawaSakiko363',
+  footerRightText: '© 2026 K4NAgod',
   faviconPath: '',
   logoPath: '',
   backgroundColor: '#ffffff'

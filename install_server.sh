@@ -9,7 +9,7 @@ set -e
 
 SERVER_DIR="/etc/yals"
 SERVER_BIN="/usr/bin/yals_server"
-REPO_URL="${YALS_REPO_URL:-https://github.com/TogawaSakiko363/YALS.git}"
+REPO_URL="${YALS_REPO_URL:-https://github.com/K4NAgod/YALS.git}"
 REPO_REF="${YALS_REPO_REF:-main}"
 CONFIG_FILE="$SERVER_DIR/config.yaml"
 SERVICE_FILE="/etc/systemd/system/yals.service"

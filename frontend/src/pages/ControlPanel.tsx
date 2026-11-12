@@ -67,7 +67,7 @@ function validateAgentForm(agent: AgentConfigPayload): string | null {
 function buildInstallCommand(uuid: string, token: string): string {
   const host = window.location.hostname || 'example.com';
   const port = window.location.port || (window.location.protocol === 'https:' ? '443' : '80');
-  return `curl -fsSL https://raw.githubusercontent.com/TogawaSakiko363/YALS/refs/heads/main/install_agent.sh | sudo bash -s -- --server-host ${host} --server-port ${port} --uuid ${uuid} --token ${token}`;
+  return `curl -fsSL https://raw.githubusercontent.com/K4NAgod/YALS/refs/heads/main/install_agent.sh | sudo bash -s -- --server-host ${host} --server-port ${port} --uuid ${uuid} --token ${token}`;
 }
 
 // copyToClipboard copies text using the async Clipboard API, falling back to a

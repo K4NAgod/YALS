@@ -310,7 +310,7 @@ server, Node.js (18+). systemd is required.
 **Server** — pull and run the installer in one line:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TogawaSakiko363/YALS/refs/heads/main/install_server.sh \
+curl -fsSL https://raw.githubusercontent.com/K4NAgod/YALS/refs/heads/main/install_server.sh \
   | sudo bash -s -- --server-host 0.0.0.0 --server-port 8080 --server-password 'your_password'
 # update in place later (from a checkout):
 sudo ./install_server.sh update
@@ -320,7 +320,7 @@ sudo ./install_server.sh update
 panel, which copies this command with the right uuid/token):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TogawaSakiko363/YALS/refs/heads/main/install_agent.sh \
+curl -fsSL https://raw.githubusercontent.com/K4NAgod/YALS/refs/heads/main/install_agent.sh \
   | sudo bash -s -- --server-host lg.example.com --server-port 443 --uuid <uuid> --token <token>
 # update in place later (rebuilds + restarts, reuses the existing service params):
 sudo ./install_agent.sh update
